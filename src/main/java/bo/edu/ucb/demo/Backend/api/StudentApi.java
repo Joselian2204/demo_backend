@@ -22,4 +22,6 @@ public class StudentApi {
     public Student create(@RequestBody Student student) {
         return cursoBl.createStudent(student);
     }
+
+
 }
